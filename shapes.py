@@ -53,13 +53,13 @@ class Sphere():
         self.r =r
     
     def surface_area(self):
-        surface_area_of_a_sphere = 4*pi.self.r**2
+        surface_area_of_a_sphere =4*pi*self.r
         return  surface_area_of_a_sphere
     def volume(self):
-        volume_of_a_sphere = 4/3*pi*self.r**3
+        volume_of_a_sphere = 1.333333*pi*self.r**3
         return volume_of_a_sphere
     
 my_sphere = Sphere(r=9)
 print(my_sphere.r)
 print(my_sphere.surface_area())
-print(my_sphere.volume)
+print(my_sphere.volume())
